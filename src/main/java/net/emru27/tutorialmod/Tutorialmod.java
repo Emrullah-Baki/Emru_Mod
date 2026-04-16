@@ -1,6 +1,10 @@
 package net.emru27.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import net.emru27.tutorialmod.block.ModBlocks;
+import net.emru27.tutorialmod.item.ModCreativeModTab;
+import net.emru27.tutorialmod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -21,6 +25,10 @@ public class Tutorialmod {
 
     public Tutorialmod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
+
+        ModCreativeModTab.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

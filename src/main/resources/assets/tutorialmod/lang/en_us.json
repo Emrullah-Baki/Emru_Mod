@@ -1,0 +1,9 @@
+{
+  "item.tutorialmod.banana": "Banana",
+  "item.tutorialmod.poo": "Poo",
+
+  "block.tutorialmod.b_crate": "Crate of Banana's",
+  "block.tutorialmod.p_block": "Block of Poo",
+
+  "creativetab.tutorial_tab": "Banana Tutorial Tab"
+}
