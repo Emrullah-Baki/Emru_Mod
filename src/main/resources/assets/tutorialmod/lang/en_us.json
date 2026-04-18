@@ -1,9 +1,11 @@
 {
   "item.tutorialmod.banana": "Banana",
   "item.tutorialmod.poo": "Poo",
+  "item.tutorialmod.chick": "Chick",
 
   "block.tutorialmod.b_crate": "Crate of Banana's",
-  "block.tutorialmod.p_block": "Block of Poo",
+  "block.tutorialmod.p_block": "Block of Purple Ore",
+  "block.tutorialmod.c_block": "Block of Chicken",
 
   "creativetab.tutorial_tab": "Banana Tutorial Tab"
 }

@@ -23,6 +23,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.HAY_BLOCK).sound(SoundType.BAMBOO)));
     public static final RegistryObject<Block> P_BLOCK = registerBlock("p_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND).sound(SoundType.PACKED_MUD)));
+    public static final RegistryObject<Block> C_BLOCK = registerBlock("c_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND).sound(SoundType.PACKED_MUD)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
